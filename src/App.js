@@ -1,18 +1,17 @@
 import React from "react";
 import Counter from "./components/counter";
-import DecreaseCounter from "./components/decreaseCounter";
-import IncreaseByTwoCounter from "./components/increaseByTwoCounter";
-import IncreaseCounter from "./components/increaseCounter";
+import DecreaseCounter from "./components/DecreaseCounter";
+import IncreaseByTwoCounter from "./components/IncreaseByTwoCounter";
+import IncreaseCounter from "./components/IncreaseCounter";
 
 
 function App() {
   return (
     <div>
-      <Counter/>
-      {/* <increaseCounter/>
-      <DecreaseCounter/>
-      <IncreaseCounter/>
-      <IncreaseByTwoCounter/> */}
+      <Counter/>  
+     <IncreaseCounter/>
+     <DecreaseCounter/>
+     <IncreaseByTwoCounter/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-//storu^'u veri tabanı gibi düşünebiliriz.state veritabanı
+//storu'u veri tabanı gibi düşünebiliriz.state veritabanı
 
 import {createStore} from "redux"
 

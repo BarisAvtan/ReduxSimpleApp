@@ -1,6 +1,6 @@
 import * as actionTypes from "../actions/actionTypes";
 //redurcerların amacı state bilgisini döndürmektir.
-const counterReducer = (state = 0, acition) => {
+const counterReducer = (state = 10, acition) => {
   let newState;
   switch (acition.type) {
     case actionTypes.INCREASE_COUNTER:
