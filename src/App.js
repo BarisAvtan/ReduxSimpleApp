@@ -1,4 +1,5 @@
 import React from "react";
+import AddValue from "./components/AddValue";
 import Counter from "./components/counter";
 import DecreaseCounter from "./components/DecreaseCounter";
 import IncreaseByTwoCounter from "./components/IncreaseByTwoCounter";
@@ -12,6 +13,7 @@ function App() {
      <IncreaseCounter/>
      <DecreaseCounter/>
      <IncreaseByTwoCounter/>
+     <AddValue/>
     </div>
   );
 }

@@ -9,6 +9,8 @@ const counterReducer = (state = 10, acition) => {
       return (newState = state - acition.payload);
     case actionTypes.INCREASE_BY_TWO_COUNTER:
       return (newState = state + acition.payload);
+      case actionTypes.INCREASE_BY_VALUE:
+        return (newState = state + acition.payload);
     default:
       return state;
   }
